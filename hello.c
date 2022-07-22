@@ -1,1 +1,1 @@
-int main() { printf("Hello World λ"); }
+int main() { printf("Hello World λ λ λ"); }
