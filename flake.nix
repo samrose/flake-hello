@@ -14,6 +14,6 @@
         buildPhase = "gcc -o hello ./hello.c";
         installPhase = "mkdir -p $out/bin; install -t $out/bin hello";
       };
-
-  };
-}
+    hydraJobs = self.packages;
+    };
+  }
